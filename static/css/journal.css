@@ -13,7 +13,7 @@ html {
       font-size: 1.125rem; } }
 
 body {
-  line-height: 1.6; }
+  line-height: 1.7; }
 
 html,
 body {
@@ -63,7 +63,7 @@ blockquote {
     text-align: right; }
 
 a {
-  border-bottom: 1px solid currentColor;
+  border-bottom: 1px solid #b9b9b9;
   color: currentColor;
   text-decoration: none; }
   a:hover {
@@ -94,7 +94,7 @@ abbr {
 kbd,
 code,
 pre {
-  font-family: '"Source Code Pro"', monospace; }
+  font-family: 'SFMono-Regular', Menlo, Monaco, 'Courier New', Courier, monospace; }
 
 pre {
   max-width: 100%; }
@@ -137,7 +137,7 @@ h6 {
 
 .container {
   width: 100%;
-  max-width: 38rem;
+  max-width: 40rem;
   margin: 0 auto;
   padding: .5rem; }
   @media screen and (min-width: 800px) {
