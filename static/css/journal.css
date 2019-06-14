@@ -3,10 +3,16 @@
 *::after {
   box-sizing: border-box; }
 
+@font-face {
+  font-family: "SF Mono";
+  font-weight: 400;
+  src: url("https://sf.abarba.me/SFMono-Regular.otf");
+}
+
 html {
   background-color: #fbfbfb;
   color: #303030;
-  font-family: "Arvo", "Futura", serif;
+  font-family: "Arvo", "Lucida Grande", "Helvetica Neue", "Futura", serif;
   font-size: 1rem; }
   @media screen and (min-width: 800px) {
     html {
@@ -73,7 +79,7 @@ a {
 ol,
 ul {
   margin: 0 0 1rem 1.25rem;
-  padding: 0;
+  padding: 0.2rem;
   list-style-position: outside; }
   ol ol,
   ol ul,
@@ -94,7 +100,7 @@ abbr {
 kbd,
 code,
 pre {
-  font-family: 'SFMono-Regular', Menlo, Monaco, 'Courier New', Courier, monospace; }
+  font-family: 'SF Mono', Menlo, Monaco, 'Courier New', Courier, monospace; }
 
 pre {
   max-width: 100%; }
