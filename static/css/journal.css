@@ -11,12 +11,18 @@
 
 html {
   background-color: #fbfbfb;
-  color: #303030;
-  font-family: "Arvo", "Lucida Grande", "Helvetica Neue", "Futura", serif;
-  font-size: 1rem; }
+  color: #080808;
+  font-family: brandon-grotesque, "Lucida Grande", "Helvetica Neue", "Futura", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3rem; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden
+}
   @media screen and (min-width: 800px) {
     html {
-      font-size: 1.125rem; } }
+      font-size: 1.3rem; } }
 
 body {
   line-height: 1.7; }
@@ -100,7 +106,8 @@ abbr {
 kbd,
 code,
 pre {
-  font-family: 'SF Mono', Menlo, Monaco, 'Courier New', Courier, monospace; }
+  font-family: 'SF Mono', Menlo, Monaco, 'Courier New', Courier, monospace;
+  font-size: 0.9rem; }
 
 pre {
   max-width: 100%; }
